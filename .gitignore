@@ -1,2 +1,1 @@
-﻿node_modules
-!node_modules/jsonresume-theme-americano
+﻿node_modules/*

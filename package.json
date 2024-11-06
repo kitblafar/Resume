@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jsonresume-theme-americano": "^1.0.8",
+    "jsonresume-theme-bhdouglass": "^1.0.2",
+    "jsonresume-theme-pico": "^0.0.2",
+    "jsonresume-theme-relaxed": "^0.1.11",
+    "jsonresume-theme-stackoverflow": "^2.0.2"
+  }
+}
