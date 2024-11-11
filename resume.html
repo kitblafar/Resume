@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 
-<head>
+<head style="background-color: yellow">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
   <title>Kitty Farren</title>
@@ -22,71 +22,17 @@
   --gap-xlarge: 1em;
 }
 
-
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
-}
-
 html {
-  background: white;
+  background: var(--color-bg-primary);
+  border-top: 30px solid var(--color-bg-secondary);
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+
 
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  background: white;
+  font-weight: 300;
+  background: --color-bg-primary;
   margin: 50px 0 100px;
   letter-spacing: .3px;
   color: white;
@@ -103,23 +49,20 @@ h6 {
 }
 
 h1 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2em;
   letter-spacing: 1px;
 }
 
 h2 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1.3em;
   letter-spacing: .5px;
 }
 
 h3 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1.6em;
   letter-spacing: .4px;
 }
 
@@ -128,9 +71,8 @@ h3.bold {
 }
 
 h4 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 h4.bold {
@@ -138,9 +80,8 @@ h4.bold {
 }
 
 h5 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 1em;
 }
 
 h5.italic {
@@ -148,9 +89,8 @@ h5.italic {
 }
 
 h6 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 10px;
+  font-weight: 300;
+  font-size: 1em;
   color: rgb(204, 204, 204);
 }
 
@@ -164,20 +104,19 @@ a:hover {
 }
 
 a .fa-external-link {
-  font-size: 10px;
+  font-size: 1em;
   vertical-align: text-top;
 }
 
 p,
 li {
-  font-size: 11px;
+  font-size: 0.75em;
   text-align: justify;
   margin: 0;
 }
 
 blockquote {
   font-size: 11px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: italic;
   margin: 0;
@@ -273,11 +212,13 @@ section {
   gap: var(--gap-small);
 }
 
+
+
 .column {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--gap-small);
+  gap: var(--gap-large);
 }
 
 .grid {
@@ -362,13 +303,21 @@ section > section:first-of-type {
 }
 
 .position > .grid {
-  row-gap: 0;
+  row-gap: 10px;
 }
 
 /* Header Section */
 .avatar {
   align-self: center;
   margin-right: var(--gap-medium);
+}
+
+.headerRow{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-small);
+  background-color: var(--color-bg-secondary);
 }
 
 /* Company Section */
@@ -399,14 +348,11 @@ section > section:first-of-type {
 /* Layouts */
 .page {
   background: var(--color-bg-primary);
-  width: 612px;
-  min-height: 792px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  border-top: 10px solid var(--color-bg-secondary);
   padding: 34px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Adjustments for Printing */
@@ -441,7 +387,7 @@ section > section:first-of-type {
 
 <body>
   <main id="resume" class="page">
-    <header class="row">
+    <header class="headerRow">
             <img class="logo avatar" src=me.png />
     
         <div class="column fill">
@@ -471,24 +417,36 @@ section > section:first-of-type {
                 </div>
         </div>
     </header>
-        <section class="profiles">
-            <div class="row centre wide no-print">
+    <section class="profiles">
+        <div class="row centre wide no-print">
+                        <div class="url">
+                            <a href="https://www.linkedin.com/in/kitty-farren/">
                                 <div class="row align-center">
-                                    <h6 class="large">
-                                        <i class="fa fa-linkedin-square"></i>
-                                
-                                            kitty-farren
-                                    </h6>
-                                </div>
+        <h6 class="large">
+            <i class="fa fa-linkedin"></i>
+    
+                <a href="https://www.linkedin.com/in/kitty-farren/" target="_blank">
+                    kitty-farren
+                </a>
+        </h6>
+    </div>
+    </a>
+                        </div>
+                        <div class="url">
+                            <a href="https://github.com/kitblafar">
                                 <div class="row align-center">
-                                    <h6 class="large">
-                                        <i class="fa fa-github"></i>
-                                
-                                            kitblafar
-                                    </h6>
-                                </div>
-            </div>
-        </section>
+        <h6 class="large">
+            <i class="fa fa-github"></i>
+    
+                <a href="https://github.com/kitblafar" target="_blank">
+                    kitblafar
+                </a>
+        </h6>
+    </div>
+    </a>
+                        </div>
+        </div>
+    </section>
         <section class="about">
             <div class="column">
                 <h2 class="uppercase">
@@ -513,7 +471,10 @@ section > section:first-of-type {
                           <h3 class="bold">
                                   <a href="https://www.linkedin.com/company/28614292" target="_blank">Nidec Drives</a>
                           </h3>
-            
+                          <h6>
+                              <i class="fa fa-map-marker"></i>
+                              <span>Mid-Wales, UK</span>
+                          </h6>
                       
                   </div>
                   <div class="column end fit">
@@ -528,10 +489,6 @@ section > section:first-of-type {
                               <span>5 yrs 4 mos</span>
                           </h6>
             
-                          <h6>
-                              <i class="fa fa-map-marker"></i>
-                              <span>Powys, Wales, United Kingdom</span>
-                          </h6>
                   </div>
               </div>
             </section>            
@@ -555,13 +512,11 @@ section > section:first-of-type {
                           </h6>
                       </div>
                 
-                          <p>This role included rotations in different departments to broaden my engineering skill set</p>
+                          <p>In this role I developed a new thermal model generation process.</p>
                 
                       <ul>
-                          <li>In Power electronics I designed and created an upgraded IGBT thermal testing device; created new python tools for digital twin development and research novel current sensing technology for next gen drives.</li>
-                          <li>In the ECAD department I layed out a production quality family of boards (FOB); created an internal KiCAD set of standards and user guides; created a manufacturing board to test DFM processes and aided the India team in creating layouts.</li>
-                          <li>In Tech Support I answered customer tickets; solved field failures;  created recruitment resources; wrote a Python dataprocessing tool to sort user data from a documentation site and wrote a specification for an app using Figma.</li>
-                          <li>Finally in the Control department, I developed a C# program to process large amounts of data using a mesh algorithm.</li>
+                          <li>Designed and made a panel for automated IGBT thermal data collection including a custom PCB and 3D models.</li>
+                          <li>Designed and wrote a C# program for processing large amount of IGBT thermal data into a VFD thermal model.</li>
                       </ul>
                     </div>
                   </div>
@@ -590,9 +545,9 @@ section > section:first-of-type {
                           <p>This role included rotations in different departments to broaden my engineering skill set</p>
                 
                       <ul>
-                          <li>In Power electronics I designed and prototyped an upgraded IGBT thermal testing device; created new python tools for digital twin development and researched novel current sensing technology for next gen drives.</li>
-                          <li>In the ECAD department I layed out a production quality family of boards (FOB); created an internal KiCAD set of standards and user guides; created a manufacturing board to test DFM processes and aided the India team in creating layouts.</li>
-                          <li>In Tech Support I answered customer tickets; solved field failures;  created recruitment resources; wrote a Python dataprocessing tool to sort user data from a documentation site and wrote a mobile app specification</li>
+                          <li>In power electronics I designed and created an upgraded IGBT thermal testing device; created new python tools for digital twin development and research novel current sensing technology for next gen drives.</li>
+                          <li>In the ECAD department I layed out a production quality family of boards (FOB); created an internal KiCAD workflow; created a manufacturing board to test DFM processes and aided the India team in creating layouts and schematics.</li>
+                          <li>In Tech Support I answered customer tickets; solved VFD field failures; created recruitment resources; wrote a Python dataprocessing tool to sort user data from a documentation site and wrote a specification for a set of Android setup wizards.</li>
                       </ul>
                     </div>
                   </div>
@@ -622,7 +577,7 @@ section > section:first-of-type {
                           <p></p>
                           <p>1st Placement (2019): EMC and efficiency testing prototype control boards. SIMetrix circuit design software, soldering and proto-board creation, EMC testing experience.</p>
                           <p></p>
-                          <p>2nd Placement (2020- COVID limited): Review of strings used in drives for easy of use. Attempting to simplify drive usage. Customer focus.</p>
+                          <p>2nd Placement (2020): Review of strings used in drives to improve customer experience.</p>
                           <p></p>
                           <p>2nd Placement (2021): Automatic elevator drive software testing suite. Software architecture and design, StructuredText, awareness of software development timeline.</p>
                 
@@ -682,7 +637,7 @@ section > section:first-of-type {
                           </h6>
                       </div>
                 
-                          <p>STEM ambassadors aims to raise the awareness and understanding of STEM careers. As a STEM ambassador I have attended careers events, done classroom showcases and lead computer workshops. I have created some cool STEM resources to go along with these classes like the &quot;build a pepper colour detecting circuit&quot; and the &quot;pneumatic conveyor belt controller&quot;. I hope that by being a visible woman in the field I can encourage young women to consider STEM careers.</p>
+                          <p>STEM ambassadors aims to raise the awareness and understanding of STEM careers. As a STEM ambassador I have attended careers events, done classroom showcases and lead computer workshops. I have created STEM resources to go along with these classes like the &quot;build a pepper colour detecting circuit&quot; and the &quot;pneumatic conveyor belt controller&quot;. I hope that by being a visible woman in the field I can encourage young women to consider STEM careers.</p>
                 
                       <ul>
                           <li>Promoting STEM for young women and being visible as a women in the field.</li>
@@ -869,6 +824,12 @@ section > section:first-of-type {
                 </div>
                 <div class="column fill">
                         <h6>Ed Peate</h6>
+                </div>
+                <div class="column">
+                    <div class="line"></div>
+                </div>
+                <div class="column fill">
+                        <h6>Mike Cade</h6>
                 </div>
             </div>
     </section>

@@ -30,14 +30,12 @@
       "position": "Development Engineer",
       "startDate": "2024-10-01",
       "highlights": [
-        "In Power electronics I designed and created an upgraded IGBT thermal testing device; created new python tools for digital twin development and research novel current sensing technology for next gen drives.",
-        "In the ECAD department I layed out a production quality family of boards (FOB); created an internal KiCAD set of standards and user guides; created a manufacturing board to test DFM processes and aided the India team in creating layouts.",
-        "In Tech Support I answered customer tickets; solved field failures;  created recruitment resources; wrote a Python dataprocessing tool to sort user data from a documentation site and wrote a specification for an app using Figma.",
-        "Finally in the Control department, I developed a C# program to process large amounts of data using a mesh algorithm."
+        "Designed and made a panel for automated IGBT thermal data collection including a custom PCB and 3D models.",
+        "Designed and wrote a C# program for processing large amount of IGBT thermal data into a VFD thermal model."
       ],
-      "summary": "This role included rotations in different departments to broaden my engineering skill set",
+      "summary": "In this role I developed a new thermal model generation process.",
       "url": "https://www.linkedin.com/company/28614292",
-      "location": "Powys, Wales, United Kingdom"
+      "location": "Mid-Wales, UK"
     },
     {
       "name": "Nidec Drives",
@@ -45,13 +43,13 @@
       "startDate": "2022-07-31",
       "endDate": "2024-07-31",
       "highlights": [
-        "In Power electronics I designed and prototyped an upgraded IGBT thermal testing device; created new python tools for digital twin development and researched novel current sensing technology for next gen drives.",
-        "In the ECAD department I layed out a production quality family of boards (FOB); created an internal KiCAD set of standards and user guides; created a manufacturing board to test DFM processes and aided the India team in creating layouts.",
-        "In Tech Support I answered customer tickets; solved field failures;  created recruitment resources; wrote a Python dataprocessing tool to sort user data from a documentation site and wrote a mobile app specification"
+        "In power electronics I designed and created an upgraded IGBT thermal testing device; created new python tools for digital twin development and research novel current sensing technology for next gen drives.",
+        "In the ECAD department I layed out a production quality family of boards (FOB); created an internal KiCAD workflow; created a manufacturing board to test DFM processes and aided the India team in creating layouts and schematics.",
+        "In Tech Support I answered customer tickets; solved VFD field failures; created recruitment resources; wrote a Python dataprocessing tool to sort user data from a documentation site and wrote a specification for a set of Android setup wizards."
       ],
       "summary": "This role included rotations in different departments to broaden my engineering skill set",
       "url": "https://www.linkedin.com/company/28614292",
-      "location": "Powys, Wales, United Kingdom"
+      "location": "Mid-Wales, UK"
     },
     {
       "name": "Nidec Drives",
@@ -59,9 +57,9 @@
       "startDate": "2019-07-31",
       "endDate": "2022-07-31",
       "highlights": [],
-      "summary": "Summer placements at Nidec Drives through the E3 Academy Scholarship Scheme:\n\n1st Placement (2019): EMC and efficiency testing prototype control boards. SIMetrix circuit design software, soldering and proto-board creation, EMC testing experience.\n\n2nd Placement (2020- COVID limited): Review of strings used in drives for easy of use. Attempting to simplify drive usage. Customer focus.\n\n2nd Placement (2021): Automatic elevator drive software testing suite. Software architecture and design, StructuredText, awareness of software development timeline.",
+      "summary": "Summer placements at Nidec Drives through the E3 Academy Scholarship Scheme:\n\n1st Placement (2019): EMC and efficiency testing prototype control boards. SIMetrix circuit design software, soldering and proto-board creation, EMC testing experience.\n\n2nd Placement (2020): Review of strings used in drives to improve customer experience.\n\n2nd Placement (2021): Automatic elevator drive software testing suite. Software architecture and design, StructuredText, awareness of software development timeline.",
       "url": "https://www.e3academy.org/",
-      "location": "Powys, Wales, United Kingdom"
+      "location": "Mid-Wales, UK"
     }
   ],
   "volunteer": [
@@ -70,7 +68,7 @@
       "position": "STEM Ambassador",
       "startDate": "2021-09-30",
       "url": "https://www.stem.org.uk/stem-ambassadors",
-      "summary": "STEM ambassadors aims to raise the awareness and understanding of STEM careers. As a STEM ambassador I have attended careers events, done classroom showcases and lead computer workshops. I have created some cool STEM resources to go along with these classes like the \"build a pepper colour detecting circuit\" and the \"pneumatic conveyor belt controller\". I hope that by being a visible woman in the field I can encourage young women to consider STEM careers.",
+      "summary": "STEM ambassadors aims to raise the awareness and understanding of STEM careers. As a STEM ambassador I have attended careers events, done classroom showcases and lead computer workshops. I have created STEM resources to go along with these classes like the \"build a pepper colour detecting circuit\" and the \"pneumatic conveyor belt controller\". I hope that by being a visible woman in the field I can encourage young women to consider STEM careers.",
       "highlights": [
         "Promoting STEM for young women and being visible as a women in the field.",
         "Running classroom workshops giving students hands-on experience prototyping circuits and making links to real-world applications.",
@@ -220,6 +218,10 @@
   "references": [
     {
       "name": "Ed Peate",
+      "summary": "She is good"
+    },
+    {
+      "name": "Mike Cade",
       "summary": "She is good"
     }
   ],
