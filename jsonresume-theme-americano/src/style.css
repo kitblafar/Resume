@@ -21,13 +21,12 @@ html {
 }
 
 
-
 body {
   font-weight: 300;
   background: --color-bg-primary;
-  margin: 50px 0 100px;
   letter-spacing: .3px;
   color: white;
+  margin: 0px;
 }
 
 h1,
@@ -48,13 +47,13 @@ h1 {
 
 h2 {
   font-weight: 300;
-  font-size: 1.3em;
+  font-size: 1.5em;
   letter-spacing: .5px;
 }
 
 h3 {
   font-weight: 300;
-  font-size: 1.6em;
+  font-size: 1.2em;
   letter-spacing: .4px;
 }
 
@@ -64,7 +63,7 @@ h3.bold {
 
 h4 {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 h4.bold {
@@ -89,6 +88,7 @@ h6 {
 a {
   color: inherit;
   text-decoration: inherit;
+  align-content: center;
 }
 
 a:hover {
@@ -152,6 +152,25 @@ section {
   margin-top: var(--gap-large);
 }
 
+.mainPageContainer{
+  width: 70%;
+  align-self: center;
+}
+
+header{
+  background-color: var(--color-bg-tertiary);
+  display: flex;
+  align-items: center;
+}
+
+div.headerRow{
+  display: flex;
+  align-self: center;
+  margin-top: var(--gap-large);
+  width: 70%;
+  margin-bottom: 0.4em;
+}
+
 .keyline {
   width: 100%;
   margin: var(--gap-tiny) 0 var(--gap-medium);
@@ -200,7 +219,7 @@ section {
 .row {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--gap-small);
 }
 
@@ -310,7 +329,7 @@ section > section:first-of-type {
 }
 
 .logo {
-  width: 4em;
+  width: 8em;
   border: 2px solid var(--color-bg-secondary);
   border-radius: 50%;
 }
@@ -332,11 +351,9 @@ section > section:first-of-type {
 /* Layouts */
 .page {
   background: var(--color-bg-primary);
-  width: 50%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 34px;
 }
 
 /* Adjustments for Printing */

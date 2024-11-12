@@ -1,32 +1,31 @@
 {{#resume.basics}}
-<header class="row">
-    {{#if image}}
-        <img class="logo avatar" src={{image}} />
-    {{/if}}
-
-    <div class="column fill">
-        <h1>{{name}}</h1>
-        <h2>{{label}}</h2>
-    </div>
-
-    <div class="column end">
-        {{#if email}}
-            {{> info-tag text=email icon="fa-envelope-o" isEmail=true href=email}}
+<header class="column fit">
+    <div class="headerRow">
+        {{#if image}}
+            <img class="logo avatar" src={{image}} />
         {{/if}}
 
-        {{#if phone}}
-            {{> info-tag text=phone icon="fa-phone" }}
-        {{/if}}
+        <div class="column fill">
+            <h1>{{name}}</h1>
+            <h2>{{label}}</h2>
 
-        {{#if url}}
-            {{> info-tag text=url icon="fa-globe" href=url}}
-        {{/if}}
+            {{#if email}}
+                {{> info-tag text=email icon="fa-envelope-o" isEmail=true href=email}}
+            {{/if}}
 
-        {{#if location}}
-            {{#location}}
-            {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-map-marker"}}
-            {{/location}}
-        {{/if}}
+            {{#if phone}}
+                {{> info-tag text=phone icon="fa-phone" }}
+            {{/if}}
+
+            {{#if url}}
+                {{> info-tag text=url icon="fa-globe" href=url}}
+            {{/if}}
+
+            {{#if location}}
+                {{#location}}
+                {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-map-marker"}}
+                {{/location}}
+            {{/if}}
     </div>
 </header>
 {{/resume.basics}}

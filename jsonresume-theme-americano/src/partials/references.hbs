@@ -4,18 +4,22 @@
     {{#if resume.references.length}}
         <div class="grid">
         {{#each resume.references}}
-            <div class="column">
-                <div class="line"></div>
-            </div>
-            <div class="column fill">
-                {{#if reference}}
-                    <p>
-                        {{reference}}
-                    <p> 
-                {{/if}}
-                {{#if name}}
-                    <h6>{{name}}</h6>
-                {{/if}}
+
+            <div class="line"></div>
+            <div class="row wide inherit-height">
+                <div class="column fill">
+                    {{#if name}}
+                        <h6>{{name}}</h6>
+                    {{/if}}
+                </div>
+
+                <div class="column">
+                    {{#if summary}}
+                        <p>
+                            {{summary}}
+                        <p> 
+                    {{/if}}
+                </div>
             </div>
         {{/each}}
         </div>
