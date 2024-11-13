@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Kitty Farren",
-    "label": "Graduate Engineer at Nidec Control Techniques",
+    "label": "Development Engineer at Nidec Drives",
     "image": "me.png",
     "email": "farren.kitty@gmail.com",
     "website": "https://kittyfarren.dev",
-    "summary": "Development engineer working in Industrial Automation. Currently working on power electronic modelling with an focus on software/firmware and electronic design for thermal monitoring in AC drives. Working towards chartership as an electronics and electrical engineer. Skilled in software development, embedded development and power electronic design.",
+    "summary": "Development engineer working in industrial automation. Currently working on power electronic modelling including software; firmware and electronics development for thermal monitoring in AC drives. Working towards chartership as an electronics and electrical engineer. Skilled in software development, embedded development and power electronic design.",
     "location": {
       "countryCode": "GB",
       "address": "United Kingdom"
@@ -26,38 +26,43 @@
   },
   "work": [
     {
-      "name": "Nidec Drives",
+      "name": "Nidec Drives (prev Control Techniques)",
       "position": "Development Engineer",
       "startDate": "2024-10-01",
       "highlights": [
-        "Designed and made a panel for automated IGBT thermal data collection including a custom PCB and 3D models.",
-        "Designed and wrote a C# program for processing large amount of IGBT thermal data into a VFD thermal model."
+        "Supported a junior engineer in carrying out thermal testing.",
+        "Constructed a panel for automated IGBT thermal data collection including a custom PCB, embedded solution and 3D models.",
+        "Wrote a C# program for processing large amount of IGBT thermal data into a VFD thermal model."
       ],
-      "summary": "In this role I developed a new thermal model generation process.",
+      "summary": "Developed a new thermal model generation process.",
       "url": "https://www.linkedin.com/company/28614292",
       "location": "Mid-Wales, UK"
     },
     {
-      "name": "Nidec Drives",
+      "name": "Nidec Drives (prev Control Techniques)",
       "position": "Graduate Engineer",
       "startDate": "2022-07-31",
       "endDate": "2024-07-31",
       "highlights": [
-        "In power electronics I designed and created an upgraded IGBT thermal testing device; created new python tools for digital twin development and research novel current sensing technology for next gen drives.",
-        "In the ECAD department I layed out a production quality family of boards (FOB); created an internal KiCAD workflow; created a manufacturing board to test DFM processes and aided the India team in creating layouts and schematics.",
-        "In Tech Support I answered customer tickets; solved VFD field failures; created recruitment resources; wrote a Python dataprocessing tool to sort user data from a documentation site and wrote a specification for a set of Android setup wizards."
+        "Power electronics: Created an upgraded IGBT thermal testing device; wrote a new python tools for digital twin development and research novel current sensing technology for next gen drives; conducted emission EMC testing.",
+        "ECAD: Competed a lay out a production quality family of boards (FOB); set up an internal KiCAD workflow; created a manufacturing board to test DFM processes and aided the India team in creating layouts and schematics.",
+        "Tech Support: Answered customer tickets; solved VFD field failures; created recruitment resources; produced a Python browsing data processing tool and wrote a specification for a set of Android setup wizards.",
+        "ECPE courses attended: Tutorial EMC in Power Electronics, Workshop Condition & Health Monitoring."
       ],
       "summary": "This role included rotations in different departments to broaden my engineering skill set",
       "url": "https://www.linkedin.com/company/28614292",
       "location": "Mid-Wales, UK"
     },
     {
-      "name": "Nidec Drives",
+      "name": "Nidec Drives (prev Control Techniques)",
       "position": "E3 Student Engineer",
       "startDate": "2019-07-31",
       "endDate": "2022-07-31",
-      "highlights": [],
-      "summary": "Summer placements at Nidec Drives through the E3 Academy Scholarship Scheme:\n\n1st Placement (2019): EMC and efficiency testing prototype control boards. SIMetrix circuit design software, soldering and proto-board creation, EMC testing experience.\n\n2nd Placement (2020): Review of strings used in drives to improve customer experience.\n\n2nd Placement (2021): Automatic elevator drive software testing suite. Software architecture and design, StructuredText, awareness of software development timeline.",
+      "highlights": ["Electronics (2019): EMC and efficiency testing prototype control boards including SIMetrix circuit design, soldering and proto-board creation and EMC testing.",
+      "Tech Support (2020): Review of strings used in drives to improve customer experience.",
+      "Elevator (2021): Specified and produced a suite of software tests for elevator drives written in Structured Text on a PLC."
+    ],
+      "summary": "Summer placements in different teams at Nidec Drives as part of the E3 Academy Scholarship Scheme",
       "url": "https://www.e3academy.org/",
       "location": "Mid-Wales, UK"
     }
@@ -68,12 +73,12 @@
       "position": "STEM Ambassador",
       "startDate": "2021-09-30",
       "url": "https://www.stem.org.uk/stem-ambassadors",
-      "summary": "STEM ambassadors aims to raise the awareness and understanding of STEM careers. As a STEM ambassador I have attended careers events, done classroom showcases and lead computer workshops. I have created STEM resources to go along with these classes like the \"build a pepper colour detecting circuit\" and the \"pneumatic conveyor belt controller\". I hope that by being a visible woman in the field I can encourage young women to consider STEM careers.",
+      "summary": "STEM ambassadors aims to raise the awareness and understanding of STEM careers. This includes attending careers fairs and events; creating classroom showcases and leading computer workshops with the STEM ambassadors and careers teams.",
       "highlights": [
-        "Promoting STEM for young women and being visible as a women in the field.",
-        "Running classroom workshops giving students hands-on experience prototyping circuits and making links to real-world applications.",
-        "Running and developing interactive demonstrations of electronics and control systems at careers fairs.",
-        "Giving presentations and Q&A sessions to help de-mystify the field and careers in STEM subjects.",
+        "Promoting STEM to young women and being visible as a women in engineering.",
+        "Managing and running workshops to give students hands-on experience and making links to real-world applications.",
+        "Developing interactive demonstrations of software writing, electronics and control systems.",
+        "Giving presentations and Q&A sessions to help de-mystify STEM.",
         "Improving my communication skills with those not in technical roles."
       ]
     }
@@ -82,10 +87,10 @@
     {
       "institution": "University of Nottingham",
       "area": "Electrical and Electronics Engineering",
-      "studyType": "Master of Engineering - MEng IET Accredited",
+      "studyType": "MEng IET Accredited",
       "startDate": "2018-12-31",
       "endDate": "2022-12-31",
-      "score": "1st (Hons)",
+      "score": "1st Hons",
       "courses": [
         "Individual project: \"A Framework for Plenoptic HDR Imaging using Metasurfaces\"",
         "Computer Aided Engineering",
@@ -134,9 +139,10 @@
     {
       "name": "Industrial Automation",
       "keywords": [
-        "Variable Speed Drives (VSDs)",
+        "Variable Speed Drives (VSDs, VFDs)",
         "IEC Structured Text",
-        "PLCs"
+        "PLCs",
+        "Panel Design"
       ]
     },
     {
@@ -166,6 +172,17 @@
       ]
     },
     {
+      "name": "UI Frameworks",
+      "level": "",
+      "keywords": [
+        "Vue.js",
+        "WPF",
+        "WinForms",
+        "Qt",
+        "PyQt"
+      ]
+    },
+    {
       "name": "Embedded Development",
       "level": "",
       "keywords": [
@@ -181,7 +198,7 @@
         "Microsoft 365",
         "LaTex",
         "Markup",
-        "html"
+        "HTML"
       ]
     }
   ],
@@ -213,16 +230,19 @@
     },
     {
       "name": "Running"
+    },
+    {
+      "name": "Singing and Guitar"
     }
   ],
   "references": [
     {
-      "name": "Ed Peate",
-      "summary": "She is good"
+      "name": "Lead Power Electronics Engineer: Ed Peate",
+      "reference": "Company: Nidec Drives, Email: ed.peate@mail.nidec.com"
     },
     {
-      "name": "Mike Cade",
-      "summary": "She is good"
+      "name": "Director of Control Systems: Mike Cade",
+      "reference": "Company: Nidec Drives, Email: mike.cade@mail.nidec.com"
     }
   ],
   "projects": [

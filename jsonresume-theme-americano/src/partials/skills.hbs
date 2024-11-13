@@ -3,7 +3,7 @@
         {{> section-heading icon="wrench" value="Skills"}}
         <div class="grid">
             {{#each resume.skills}}
-                <div class="column end skills">
+                <div class="column fit">
                     {{#if name}}
                         <h4 class="bold capitalize">{{name}}</h4>
                     {{/if}}
@@ -12,10 +12,12 @@
                     {{/if}}
                 </div>
                 {{#if keywords.length}}
-                    <div class="row wrap minimal">
+                    <div class="column">
+                        <div class="row wrap">
                         {{#each keywords}}
                             <h6 class="chip">{{.}}</h6>
                         {{/each}}
+                        </div>  
                     </div>
                 {{/if}}
             {{/each}}
