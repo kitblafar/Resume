@@ -17,10 +17,6 @@
                 {{> info-tag text=phone icon="fa-phone" }}
             {{/if}}
 
-            {{#if url}}
-                {{> info-tag text=url icon="fa-globe" href=url}}
-            {{/if}}
-
             {{#if location}}
                 {{#location}}
                 {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-map-marker"}}
