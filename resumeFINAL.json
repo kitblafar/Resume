@@ -7,7 +7,7 @@
     "email": "farren.kitty@gmail.com",
     "website": "https://kittyfarren.dev",
     "phone": "07538096370",
-    "summary": "Development engineer with a master’s degree in electrical and electronics engineering, working in industrial automation. Currently working on creating a power electronic fault detection system for AC drives including C# .NET application; SQL database and electronics and firmware for custom panel. Skilled in backend, embedded and development.",
+    "summary": "Development engineer with a master’s degree in electrical and electronics engineering, working in industrial automation. Currently working on creating a power electronic fault detection system for AC drives including software; firmware and electronics development. Working towards chartership as an Electronics and Electrical Engineer. Skilled in software development, embedded development and power electronic design.",
     "location": {
       "address": "UK"
     },
@@ -30,9 +30,9 @@
       "position": "Development Engineer",
       "startDate": "2024-10-01",
       "highlights": [
-        "Wrote a C# program for processing large amounts of IGBT thermal data into a VFD thermal model including custom UI and SQL database.",
         "Supported a junior engineer in carrying out thermal testing.",
-        "Constructed a panel for automated IGBT thermal data collection including a custom PCB, embedded solution and 3D models."
+        "Constructed a panel for automated IGBT thermal data collection including a custom PCB, embedded solution and 3D models.",
+        "Wrote a C# program for processing large amounts of IGBT thermal data into a VFD thermal model including custom UI."
       ],
       "summary": "Developed a new thermal model generation process.",
       "url": "https://www.linkedin.com/company/28614292",
@@ -44,9 +44,9 @@
       "startDate": "2022-07-31",
       "endDate": "2024-07-31",
       "highlights": [
-        "Power electronics: Wrote Python and VBA tools for automated power electronics simulation and data processing; Created an upgraded IGBT thermal testing device; wrote a more efficient C# algorithm for processing thermal data that reduced run time by 8 hours and researched novel current sensing technology for next gen drives.",
-        "ECAD: Completed a lay out of a family of boards (FOB); demonstrated company use of distributed version control for PCB designs; set up an internal KiCAD workflow; created a manufacturing board to test DFM processes and aided the India team in creating layouts and schematics.",
-        "Tech Support: produced a Python data processing tool with PyQt frontend and wrote a specification for a set of Android setup wizards; answered customer tickets; solved VFD field failures; created recruitment resources.",
+        "Power electronics: Created an upgraded IGBT thermal testing device; wrote new python tools for digital twin development and researched novel current sensing technology for next gen drives; conducted emission EMC testing; underwent production quality soldering training.",
+        "ECAD: Completed a lay out of a family of boards (FOB); set up an internal KiCAD workflow; created a manufacturing board to test DFM processes and aided the India team in creating layouts and schematics.",
+        "Tech Support: Answered customer tickets; solved VFD field failures; created recruitment resources; produced a Python data processing tool and wrote a specification for a set of Android setup wizards.",
         "Attended ECPE courses for EMC in Power Electronics and Condition and Health Monitoring in Power Electronics."
       ],
       "summary": "This role included rotations in the Power Electronics, ECAD and Tech Support departments to broaden my engineering skill set",
@@ -60,7 +60,7 @@
       "endDate": "2022-07-31",
       "highlights": ["Created prototype control boards and conducted EMC efficiency testing using SIMetrix for circuit design.",
       "Reviewed strings in drives to improve customer experience.",
-      "Specified and produced a suite of automated tests for elevator drives written in Structured Text on a PLC."
+      "Specified and produced a suite of software tests for elevator drives written in Structured Text on a PLC."
     ],
       "summary": "Summer placements in the Electronics (2019), Tech Support (2020) and Embedded Elevator (2021) teams as part of the E3 Academy scholarship scheme.",
       "url": "https://www.e3academy.org/",
@@ -132,42 +132,6 @@
   "publications": [],
   "skills": [
     {
-      "name": "Software Development",
-      "level": "",
-      "keywords": [
-        "Python",
-        "C",
-        "C#",
-        "VBA",
-        "Databases/ SQL",
-        "JavaScript",
-        "Git"
-      ]
-    },
-    
-    {
-      "name": "UI Frameworks",
-      "level": "",
-      "keywords": [
-        "Vue.js",
-        "WPF",
-        "WinForms",
-        "Qt",
-        "PyQt", 
-        "Tkinter"
-      ]
-    },
-    {
-      "name": "Embedded Development",
-      "level": "",
-      "keywords": [
-        "C++",
-        "C",
-        "Automated Testing",
-        "Digital Signal Processing"
-      ]
-    },
-    {
       "name": "Electrical and Electronics Engineering",
       "keywords": [
         "Thermal Modelling",
@@ -200,14 +164,46 @@
       ]
     },
     {
+      "name": "Software Development",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C",
+        "C++",
+        "C#",
+        "VBA",
+        "Databases/ SQL",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "UI Frameworks",
+      "level": "",
+      "keywords": [
+        "Vue.js",
+        "WPF",
+        "WinForms",
+        "Qt",
+        "PyQt"
+      ]
+    },
+    {
+      "name": "Embedded Development",
+      "level": "",
+      "keywords": [
+        "C",
+        "Automated Testing",
+        "Digital Signal Processing"
+      ]
+    },
+    {
       "name": "Written Communication and Documentation",
       "level": "",
       "keywords": [
         "Microsoft 365",
         "LaTex",
         "Markup",
-        "HTML",
-        "CSS"
+        "HTML"
       ]
     }
   ],
