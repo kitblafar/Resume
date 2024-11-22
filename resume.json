@@ -7,7 +7,7 @@
     "email": "farren.kitty@gmail.com",
     "website": "https://kittyfarren.dev",
     "phone": "07538096370",
-    "summary": "Development engineer with a master’s degree in electrical and electronics engineering, working in industrial automation. Currently working on creating a power electronic fault detection system for AC drives including C# .NET application; SQL database and electronics and firmware for custom panel. Skilled in backend, embedded and development.",
+    "summary": "Development engineer with a master’s degree in electrical and electronics engineering, working in industrial automation. Currently working on creating a power electronic thermal model generation system for AC drives including an MVVM (MVC) C# .NET application; SQL database and electronics and firmware for custom panel. Skilled in software, embedded and electronics development.",
     "location": {
       "address": "UK"
     },
@@ -30,7 +30,7 @@
       "position": "Development Engineer",
       "startDate": "2024-10-01",
       "highlights": [
-        "Wrote a C# program for processing large amounts of IGBT thermal data into a VFD thermal model including custom UI and SQL database.",
+        "Wrote a C# .NET program for processing large amounts of IGBT thermal data into a VFD thermal model including UI and SQL database.",
         "Supported a junior engineer in carrying out thermal testing.",
         "Constructed a panel for automated IGBT thermal data collection including a custom PCB, embedded solution and 3D models."
       ],
@@ -46,7 +46,7 @@
       "highlights": [
         "Power electronics: Wrote Python and VBA tools for automated power electronics simulation and data processing; Created an upgraded IGBT thermal testing device; wrote a more efficient C# algorithm for processing thermal data that reduced run time by 8 hours and researched novel current sensing technology for next gen drives.",
         "ECAD: Completed a lay out of a family of boards (FOB); demonstrated company use of distributed version control for PCB designs; set up an internal KiCAD workflow; created a manufacturing board to test DFM processes and aided the India team in creating layouts and schematics.",
-        "Tech Support: produced a Python data processing tool with PyQt frontend and wrote a specification for a set of Android setup wizards; answered customer tickets; solved VFD field failures; created recruitment resources.",
+        "Tech Support: produced a Python data processing tool with Qt framework UI and wrote a specification for a set of Android setup wizards using Figma; answered customer tickets; solved VFD field failures; created recruitment resources.",
         "Attended ECPE courses for EMC in Power Electronics and Condition and Health Monitoring in Power Electronics."
       ],
       "summary": "This role included rotations in the Power Electronics, ECAD and Tech Support departments to broaden my engineering skill set",
@@ -104,26 +104,26 @@
       "endDate": "2022-12-31",
       "score": "1st Class Hons. IET Accredited.",
       "individualProject": "A Framework for Plenoptic HDR Imaging using Metasurfaces",
-      "groupProjects": ["Autonomous line following and RC Car", "SMPS design and creation", "Doppler radar gun", "Car telemetry system including full stack JavaScript web application"],
+      "groupProjects": ["Car telemetry system including full-stack JavaScript web application using Vue.js to plot streamed data from the car.", "Autonomous line following and RC Car", "SMPS design and creation", "Doppler radar gun"],
       "awards": ["Peter John's Award for an Outstanding Final Year Student",
       "Michael Bromwich Award for the Two Highest Achieving Home Students"],
       "courses": [
         "Computer Aided Engineering",
-        "Power and Energy",
         "Information and Systems",
         "Electronic Processing and Communication",
+        "Modelling Methods and Tools",
+        "HDL for Programmable Devices",
+        "IT infrastructure and cybersecurity",
+        "Digital Signal Processing",
+        "Sensing Systems",
+        "Instrumentation and Measurement",
+        "Power and Energy",
         "Electrical Energy Conditioning and Control",
         "Contemporary Engineering Themes",
-        "Modelling Methods and Tools",
         "Electrical Machines, Drive Systems and Applications",
-        "IT infrastructure and cybersecurity",
         "Analogue Electronics",
-        "Sensing Systems",
         "Professional Studies",
-        "Digital Signal Processing",
-        "Instrumentation and Measurement",
-        "Advanced AC Drives",
-        "HDL for Programmable Devices"
+        "Advanced AC Drives"
       ]
     }
   ],
@@ -136,7 +136,6 @@
       "level": "",
       "keywords": [
         "Python",
-        "C",
         "C#",
         "VBA",
         "Databases/ SQL",
@@ -146,14 +145,14 @@
     },
     
     {
-      "name": "UI Frameworks",
+      "name": "Frameworks",
       "level": "",
       "keywords": [
         "Vue.js",
         "WPF",
         "WinForms",
-        "Qt",
-        "PyQt", 
+        ".NET",
+        "Qt", 
         "Tkinter"
       ]
     },
@@ -172,6 +171,8 @@
       "keywords": [
         "Thermal Modelling",
         "VHDL",
+        "PCB and ECAD",
+        "Circuit Simulation",
         "EMC Design and Testing",
         "Power Electronic Design",
         "Digital and Analogue Electronic Design"
